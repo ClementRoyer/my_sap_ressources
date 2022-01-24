@@ -39,8 +39,7 @@ sap.ui.define([
 			
 			let errorStatus = {error: false}; /** Pass by reference **/
 			let errorObject = this.recDeepStruct(obj, this._oDataStructure, errorStatus);
-			
-			console.log("Verify finished for object :", obj, errorStatus, errorObject);
+
 			return { error: errorStatus.error, response: errorObject };
 		},
 		
