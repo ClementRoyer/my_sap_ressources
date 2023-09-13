@@ -11,6 +11,9 @@
 "! - MPC_EXT Class: https://answers.sap.com/questions/13395831/how-to-create-in-the-mpc-ext-class.html
 "! - Chear sheet CDS: https://www.brandeis.de/en/blog/cheat-sheet-cds-abap
 "! - Dynamic annotation: https://blogs.sap.com/2020/07/23/dynamic-annotation-values-in-abap-cds-view/comment-page-1/
+"!
+"!
+"!  Also look at : https://gist.github.com/ClementRoyer/0e5373c102c80a53a90b4fad3f4e4720
 
   
 "! MPC_EXT of C_ContractFs with field added and with dynamic UI.Hidden
