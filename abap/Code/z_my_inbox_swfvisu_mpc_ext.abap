@@ -180,5 +180,21 @@ CLASS ZCL_ZC_EXT_CONTRACT_FS_MPC_EXT IMPLEMENTATION.
 
 
 
+  //  @EndUserText: {label: 'Number of Items'}
+  //  @UI.dataPoint:{title:'Number of Items'}
+  //    @ObjectModel.virtualElementCalculatedBy: 'ABAP:CL_C_PURREQUISITION_FS_TRA_EXI'
+  //  @ObjectModel.readOnly: true
+  //  @ObjectModel.virtualElement
+  //  cast( ('0') as mm_pur_requisition_numofitems)                            as DataPoint02,
+  //
+  //  @EndUserText: {label: 'Total Net Value'}
+  //  @UI.dataPoint:{title:'Total Net Value', valueFormat.numberOfFractionalDigits: 2}
+  //      @ObjectModel.virtualElementCalculatedBy: 'ABAP:CL_C_PURREQUISITION_FS_TRA_EXI'
+  //  @ObjectModel.readOnly: true
+  //  @ObjectModel.virtualElement
+  //  @Semantics.amount.currencyCode: 'DisplayCurrency'
+  //  cast(cast(('24') as abap.curr( 16, 3 )) as mm_pur_requisition_tnetvalue) as DataPoint01,
+
+
   endmethod.
 ENDCLASS.
