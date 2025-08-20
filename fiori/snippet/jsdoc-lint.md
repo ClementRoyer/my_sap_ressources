@@ -9,7 +9,7 @@
         /**
          * @private
          * 
-         * @type {module:lu.cfl.ps.investmenthub.detail.model.treeTable.DisplayTreeTable}
+         * @type {module:lu/cfl/ps/investmenthub/detail/model/treeTable/DisplayTreeTable}
          **/
         _wbsTreeTable: undefined,
 ```
